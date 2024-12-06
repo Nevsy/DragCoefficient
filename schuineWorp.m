@@ -4,8 +4,9 @@ rho = 1.23; % kg/m^3 (lucht)
 
 A = 0.0009073; % m^2, oppervlakte
 m = 23 * 10^-3; % kg, massa van de cilinder
-C_d = 4.612742; % N/m, wrijvingsconstante, berekend in script: KKO
-v_max = 5; % m / s, maximale snelheid (dit is een placeholder waarde, werd echt berekenend in experiment 1)
+%C_d = 4.612742; % N/m, wrijvingsconstante, berekend in script: KKO
+C_d = 0.7;
+v_max = 3.6; % m / s, maximale snelheid (dit is een placeholder waarde, werd echt berekenend in experiment 1)
 
 theta = pi/4; % radiaal, de hoek waarop de cilinder gelanceerd wordt
 
